@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(86, 175, 86), rgb(40, 112, 40));
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    justify-content: center;
+    flex: auto;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+section input{
+    box-shadow: 1px 1px 3px 0px rgba(59, 59, 59, 0.541);
+    border: 0px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    flex: auto;
+    margin-left: 10px;
+}
+select{
+    box-shadow: 1px 1px 3px 0px rgba(59, 59, 59, 0.541);
+    border: 0px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    flex: auto;
+    margin-left: 10px;
+
+}
+section input[type="radio"]{
+    flex: none;
+    box-shadow: none;
+}
+#section2 p{
+    font-weight: bold;
+    display: flex;
+    max-width: 80%;
+
+}
+
+#section1{
+    font-weight: bold;
+    text-align: center;
+}
+a > p{
+    flex-direction: row-reverse;
+}
