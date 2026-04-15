@@ -1,7 +1,9 @@
 body{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgb(86, 175, 86), rgb(40, 112, 40));
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(154, 195, 154));
 }
 main{
     margin: auto;
@@ -12,7 +14,7 @@ section{
     justify-content: center;
     flex: auto;
     flex-direction: column;
-    max-width: 400px;
+    width: 400px;
 }
 
 section input{
@@ -35,6 +37,12 @@ select{
 section input[type="radio"]{
     flex: none;
     box-shadow: none;
+}
+#section2{
+    background-image: linear-gradient( 150deg, rgb(86, 175, 86), rgb(40, 112, 40));
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px black;
 }
 #section2 p{
     font-weight: bold;
