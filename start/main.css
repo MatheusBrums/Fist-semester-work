@@ -34,6 +34,11 @@ nav li{
     padding: 10px;
 }
 
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
 header section{
     display: flex;
     flex: 1;
