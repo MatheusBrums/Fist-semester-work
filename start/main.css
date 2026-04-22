@@ -73,11 +73,21 @@ header section button:hover{
 
 
 /* main */
-main > div{
+
+main h2{
+    font-family: "Special Elite", system-ui;
+    font-size: 2em;
+}
+.container{
     width: 70vw;
     margin: auto;
 }
-
+#div_category{
+    padding: 30px 0px;
+    background-color: #0e6a74cd;
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+    color: #fff;
+}
 #fist_section_main{
     padding: 30px 0px;
     display: flex;
@@ -97,7 +107,43 @@ main > div{
     align-items: center;
 }
 
+.h2ns{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#services_section{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+#services_section p{
+    font-weight: bold;
+}
+#services_section img{
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 
 
 /* footer */
+footer{
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px;
+    background-color: #0d454b;
+
+}
+
+footer p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
+}
