@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
     <header>
         <nav>
             <div id="logo">
-                <a href="main.html"><img src="images/logos/logo_branco.png" alt="logo_ippas" width="100px"></a>
+                <a href="index.html"><img src="images/logos/logo_branco.png" alt="logo_ippas" width="100px"></a>
             </div>
             <div id="nav">
 
@@ -18,7 +18,7 @@
                     <li>Ações e projetos</li>
                     <li>Serviços online</li>
                     <li>Canal de denúncia</li>
-                    <a href="index.html">
+                    <a href="register.html">
                         <li>criar conta</li>
                     </a>
                 </ul>
@@ -26,29 +26,25 @@
         </nav>
     </header>
     <main>
+    <div class="login-container">
+        <h1>Login</h1>
 
-        <section>
+        <form>
+            <div class="input-group">
+                <label>E-mail:</label>
+                <input type="email" required>
+            </div>
 
+            <div class="input-group">
+                <label>Senha:</label>
+                <input type="password" required>
+            </div>
 
-        </section>
+            <button type="submit">Entrar</button>
 
-        <section>
-            <h1>Login</h1>
-            <form action="#" method="post" autocomplete="on">
-                <p>
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email" required autocomplete="email">
-                </p>
-                <p>
-                    <label for="password">Senha:</label>
-                <input type="password" name="password" id="password" required minlength="6" maxlength="20" autocomplete="current-password">
-                </p>
-                <input type="submit" value="Entrar">
-            </form>
-            <a href="index.html">
-                <p>Esqueci a senha?</p>
-            </a>
-        </section>
-    </main>
+            <a href="#">Esqueci a senha?</a>
+        </form>
+    </div>
+</main>
 </body>
 </html>
