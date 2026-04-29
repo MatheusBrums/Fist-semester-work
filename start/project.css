@@ -19,16 +19,17 @@ header{
     display: flex;
     flex-direction: column;
     color: #fff;
-    background-size: cover;
+
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
 }
 
 nav{
-    background-color: #0e6a74;
+    background-color: rgb(14, 106, 116);
     display: flex;
     justify-content: space-between;
     padding: 10px 60px;
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+    align-items: center;
 }
 
 nav li{
@@ -43,38 +44,6 @@ nav a{
     color: #fff;
 }
 
-header section{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 10px;
-}
-
-header section h1{
-    font-family: "Special Elite", system-ui;
-    font-size: 70px;
-}
-
-header section p{
-    margin-top: -20px;
-    color: #b6ebc3;
-}
-
-header section button{
-    background-color: transparent;
-    padding: 10px 25px;
-    border: solid #b6ebc3 1px;
-    color: #b6ebc3;
-    border-radius: 5px;
-}
-
-header section button:hover{
-    box-shadow: rgba(0, 0, 0, 0.437) 2px 2px 5px 2px;
-}
-
 
 
 
@@ -83,34 +52,49 @@ header section button:hover{
 .container{
     width: 70vw;
     margin: auto;
+    
+    padding: 40px 0px;
 }
 
-
-.background_div{
-    padding: 20px 0px;
-    background-color: #0e6a74;
-     box-shadow: 0px 2px 6px 5px rgba(46, 45, 45, 0.312);
+.back{
+    background-image: url(images/background_project.png);
     color: #fff;
+    background-position: center 160%;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+    padding: 40px;
 }
+
+
 
 
 .project_section{
-    margin-top: 50px;
+
     display: flex;
     gap: 40px;
+    align-items: center;
 
 }
-
+.h3_end{
+    text-align: end;
+}
 .project_section img{
     border-radius: 20px;
+    box-shadow: 0px 2px 6px 5px rgba(46, 45, 45, 0.312);
 }
 
 .project_section p{
     text-align: justify;
+    text-indent: 20px;
 }
 
 .tabela-resultados {
   margin: 40px 0;
+}
+
+hr{
+    margin: 20px;
 }
 
 table {

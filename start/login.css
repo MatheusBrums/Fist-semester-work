@@ -25,8 +25,9 @@ nav{
     background-color: #0e6a74;
     display: flex;
     justify-content: space-between;
-    padding: 10px 60px;
+    padding: 10px 60px; 
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+     align-items: center;
 }
 
 nav li{
