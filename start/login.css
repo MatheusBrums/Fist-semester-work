@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
+
+
 body{
     font-family: "Space Mono", monospace;
     font-size: 18px;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
+
 header{
     display: flex;
     flex-direction: column;
@@ -67,13 +76,14 @@ header section button:hover{
 
 
 
-
-
-
-
 /* main */
+
+
+
+
 main {
-    height: calc(100vh - 80px);
+    flex: 1;
+    padding: 60px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,6 +96,7 @@ main {
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
     width: 300px;
     text-align: center;
+
 }
 
 .login-container h1 {
@@ -134,4 +145,28 @@ main a {
 
 main a:hover {
     text-decoration: underline;
+}
+
+
+
+
+/* footer */
+
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px;
+    background-color: #0d454b;
+
+}
+
+footer p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
 }

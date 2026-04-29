@@ -8,19 +8,23 @@ body{
     font-size: 18px;
     padding: 0px;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
+
+
 header{
     display: flex;
     flex-direction: column;
     color: #fff;
-    background-image: url(images/main_background.png);
     background-size: cover;
-    min-height: 80vh;
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
 }
 
 nav{
-    background-color: #0e6a7477;
+    background-color: #0e6a74;
     display: flex;
     justify-content: space-between;
     padding: 10px 60px;
@@ -72,71 +76,81 @@ header section button:hover{
 }
 
 
+
+
 /* main */
 
-main h2{
-    font-family: "Special Elite", system-ui;
-    font-size: 2em;
-}
 .container{
     width: 70vw;
     margin: auto;
 }
-#div_category{
-    padding: 30px 0px;
-    background-color: #0e6a74cd;
-    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+
+
+.background_div{
+    padding: 20px 0px;
+    background-color: #0e6a74;
+     box-shadow: 0px 2px 6px 5px rgba(46, 45, 45, 0.312);
     color: #fff;
 }
-#fist_section_main{
-    padding: 30px 0px;
+
+
+.project_section{
+    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-#fist_section_main p{
-    text-indent: 20px;
-}
-#text_section_main{
-    text-align: center;
-}
-#article_image{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.h2ns{
-    text-align: center;
-    padding-top: 30px;
-}
-
-#services_section{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 
 }
-#services_section p{
-    font-weight: bold;
-}
-#services_section img{
-    width: 100%;
-    border-radius: 10px;
+
+.project_section img{
+    border-radius: 20px;
 }
 
-.video_section p{
-    text-indent: 20px;
+.project_section p{
     text-align: justify;
+}
 
+.tabela-resultados {
+  margin: 40px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+thead {
+  background-color: #2e7d32;
+  color: white;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+tbody tr:hover {
+  background-color: #e0f2f1;
+}
+
+.descricao-tabela {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
 }
 
 
 
 /* footer */
+
+
+
 footer{
-    margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     padding: 20px;
