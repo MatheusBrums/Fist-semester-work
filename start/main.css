@@ -73,6 +73,41 @@ header section button:hover{
 }
 
 
+
+/* pop up */
+
+.alert-banner{
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    z-index: 999;
+
+    width: 250px;
+
+    animation: aparecer 2s ease;
+}
+
+.alert-banner img{
+    width: 100%;
+    border-radius: 4px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* main */
 
 main h2{
