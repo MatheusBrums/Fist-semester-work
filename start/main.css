@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
 
 
-
 body{
     font-family: "Space Mono", monospace;
     font-size: 18px;
@@ -20,12 +19,16 @@ header{
 }
 
 nav{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
     background-color: #0e6a7477;
     display: flex;
     justify-content: space-between;
     padding: 10px 60px;
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
     align-items: center;
+    
 }
 
 nav li{

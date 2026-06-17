@@ -24,6 +24,9 @@ header{
 }
 
 nav{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
     background-color: rgb(14, 106, 116);
     display: flex;
     justify-content: space-between;
@@ -51,6 +54,7 @@ nav a{
 
 main {
     flex: 1;
+    padding: 100px 0px;
 }
 
 .container{
@@ -118,6 +122,7 @@ padding: 10px;
     text-align: center;
     background-image: linear-gradient(to left, #1d9caa, #6fc7d0);
     border-radius: 10px 0px 10px 10px;
+    box-shadow: 0px 1px 8px 3px rgba(47, 47, 47, 0.312);
 }
 #report_section img{
     max-width: 400px;
