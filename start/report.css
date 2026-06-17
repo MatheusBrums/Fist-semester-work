@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Special+Elite&display=swap');
+
+
+
+body{
+    font-family: "Space Mono", monospace;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+}
+
+nav{
+    background-color: rgb(14, 106, 116);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.312);
+    align-items: center;
+}
+
+nav li{
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+/* main */
+
+main {
+    flex: 1;
+}
+
+.container{
+    width: 70vw;
+    margin: auto;
+    
+    padding: 20px 0px;
+}
+#open_compaint{
+padding: 10px;
+    margin-top: 20px;
+    background-color: #125f67;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 6px 2px rgba(47, 47, 47, 0.114);
+    border-radius: 10px;
+    border: none;
+}
+
+#open_compaint:hover{
+    background-color: #0d454b;
+    box-shadow: 0px 2px 6px 2px rgba(47, 47, 47, 0.312);
+}
+
+#form{
+    background-color: #d6d6d6;
+    background-image: linear-gradient(to right, #d7d7d7, #b9b9b9);
+    padding: 10px;
+    margin: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px 2px rgba(47, 47, 47, 0.114);
+
+}
+#send_form{
+    display: flex;
+    width: fit-content;
+    align-self: flex-end;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #125f67;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 6px 2px rgba(47, 47, 47, 0.114);
+    border-radius: 10px;
+    border: none;
+}
+#send_form:hover{
+    background-color: #0d454b;
+    box-shadow: 0px 2px 6px 2px rgba(47, 47, 47, 0.312);
+}
+
+#congratulations{
+    text-align: center;
+
+}
+
+#report_section{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+#report_section article{
+    text-align: center;
+    background-image: linear-gradient(to left, #1d9caa, #6fc7d0);
+    border-radius: 10px 0px 10px 10px;
+}
+#report_section img{
+    max-width: 400px;
+}
+/* footer */
+
+
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 20px;
+    background-color: #0d454b;
+
+}
+
+footer p{
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer a{
+    color: #fff;
+}

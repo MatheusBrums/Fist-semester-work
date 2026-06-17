@@ -86,6 +86,8 @@ header section button:hover{
 
     width: 250px;
 
+    display: none;
+    
     animation: aparecer 2s ease;
 }
 
